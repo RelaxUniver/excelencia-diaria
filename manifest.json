@@ -2,7 +2,7 @@
   "name": "Excelencia Diaria",
   "short_name": "Excelencia",
   "description": "Mide y mejora tus rasgos de caracter cada dia",
-  "start_url": "./index.html",
+  "start_url": "/excelencia-diaria/index.html",
   "display": "standalone",
   "background_color": "#07070f",
   "theme_color": "#07070f",
