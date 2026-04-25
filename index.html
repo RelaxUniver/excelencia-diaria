@@ -946,7 +946,7 @@ function toast(msg) {
    SERVICE WORKER
 ==================================================== */
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
+  navigator.serviceWorker.register('/excelencia-diaria/sw.js')
     .then(() => { if (D.settings.notifOn) setTimeout(scheduleNotif, 1500); })
     .catch(e => console.log('SW:', e));
 }
